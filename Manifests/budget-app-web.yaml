@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: budget-app-web
-          image: jarvis99/budget-app:latest
+          image: jarvis99/new-budget-app_web:latest
           ports:
             - containerPort: 3000
           env:
